@@ -1,0 +1,55 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Concert One', cursive;
+}
+
+.page_404
+{
+    padding: 40px 0;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(201,50,50,0.7920560747663552) 0%, rgba(201,50,50,0.7920560747663552) 0%, rgba(189,48,105,1) 0%, rgba(9,56,238,0.9079832616640406) 100%);
+    font-family: 'Poppins';
+    height: 100vh;
+}
+
+.text{
+    height: 800px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.texts{
+    width: 100%;
+}
+
+h1{
+    font-size: 10rem;
+    color: #FFF;
+}
+
+h3{
+    color: #FFF;
+}
+
+button{
+    font-size: 2rem !important;
+}
+
+.bg img{
+    width: 100%;
+}
+
+
+@media (max-width: 950px) {
+    .text{
+        height: auto;
+    }
+}
+  
+
+
+
